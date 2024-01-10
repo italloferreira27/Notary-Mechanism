@@ -13,7 +13,7 @@ contract Notary{
         accountNotary = msg.sender;
     }
 
-    function receiveFunds(address _recipient) external payable {
+    function receiveFunds(address _recipient) public payable {
         require(msg.value > 0, "Value must be greater than 0");
         require(_recipient != address(0), "Invalid recipient address");
 
@@ -21,27 +21,27 @@ contract Notary{
         sender = msg.sender;
         recipient = _recipient;
 
-        (bool success, ) = payable(accountNotary).call{value: msg.value}("");
-        require(success, "Transfer failed");
+        payable(accountNotary).transfer(msg.value);
+        //require(success, "Transfer failed");
 
         fundsReceived = true;
     }
 
-     function verifyFundsReceived() external view returns(bool) {
+     function verifyFundsReceived() public view returns(bool) {
         return fundsReceived;
     }
 
-    function transferContract() external payable {
+    function transferContract() public payable {
 
     }   
 
-    function sendEther(address payable _recipient, uint256 _amount) external {
+    function sendEther(address _recipient, uint256 _amount) public {
         // Verifica se o chamador da função é o proprietário do contrato
         require(msg.sender == accountNotary, "Unauthorized");
 
         // Transfere Ether para o destinatário especificado
         require(address(this).balance >= _amount, "Insufficient balance in contract");
-        _recipient.transfer(_amount);
+        payable(_recipient).transfer(_amount);
     }
 }
 
@@ -64,8 +64,8 @@ contract Notary{
 //............BLOCKCHAIN B..........................
 //  let notary = await Notary.deployed()
 //  let contas = await web3.eth.getAccounts()
-//  notary.transferContract({value: 10000000000000000000, from: contas[0]})
+//  notary.transferContract({value: 10000000000000000000, from: "0x585921d3Affc653D398D49b3ec72ab6D25d67021"})
 //  web3.eth.getBalance(notary.address)   --> saldo do contrato
 
 //  const valor = web3.utils.toWei('10', 'ether')
-//  notary.sendEther("0xf1318EA025Ea1Aa9D9B35DfF384F799695231Df4", valor)
+//  notary.sendEther("0x958BAF8542B7A03476a50b259C47960900313e21", valor)
