@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.7;
 
 contract Notary{
 
@@ -64,8 +64,8 @@ contract Notary{
 //............BLOCKCHAIN B..........................
 //  let notary = await Notary.deployed()
 //  let contas = await web3.eth.getAccounts()
-//  notary.transferContract({value: 10000000000000000000, from: "0x585921d3Affc653D398D49b3ec72ab6D25d67021"})
+//  notary.transferContract({value: 10000000000000000000, from: contas[0]})
 //  web3.eth.getBalance(notary.address)   --> saldo do contrato
 
 //  const valor = web3.utils.toWei('10', 'ether')
-//  notary.sendEther("0x958BAF8542B7A03476a50b259C47960900313e21", valor)
+//  notary.sendEther("0xc57E5ef3F9923950beD3A70A7508071df517E468", '10000000000000000000')
