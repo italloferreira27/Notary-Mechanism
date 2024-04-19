@@ -1,71 +1,138 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity >=0.4.22 <0.9.0;
 
-contract Notary{
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-    address public accountNotary; // Conta na blockchain do notário
-    address public sender; // Conta que enviou na Blockchain A
-    address public recipient; // Conta destino na blockchain B
-    uint256 public value; // Valor a ser transferido
-    bool public fundsReceived;
+error CallerNotBridge();
+error NotEnoughStake();
+error AlreadyBlacklisted();
+error AlreadyExecuted();
+error Locked();
 
-    constructor(){
-        accountNotary = msg.sender;
+contract Notary {
+    using SafeERC20 for IERC20;
+
+    uint256 public constant LOCK_PERIOD = 60; // 60 seconds
+    uint256 public constant MINIMUM_STAKE_AMOUNT = 10 ether;
+    uint256 public constant BRIDGE_FEE_PERCENTAGE = 5;
+    uint256 public constant HUNDRED = 100;
+
+    uint256 public lastDepositID;
+    uint256 public totalStaked;
+    IERC20 public token;
+
+    mapping(address => uint256) public stakes;
+    mapping(address => uint256) public blacklistVotes;
+    mapping(address => uint256) public lockedUntil;
+    mapping(uint256 => bool) public executedDeposits;
+
+    event Deposit(
+        uint256 indexed depostID,
+        address indexed sender,
+        address indexed receiver,
+        uint256 amount
+    );
+    event ExecuteBridge(
+        uint256 indexed depositID,
+        address indexed node,
+        address indexed receiver,
+        uint256 amount
+    );
+    event Stake(address indexed sender, uint256 indexed amount);
+    event Unstake(address indexed sender, uint256 indexed amount);
+    event VoteToBlacklistNode(address indexed voter, address indexed node);
+
+    modifier onlyBridgeNode() {
+        if (stakes[msg.sender] == 0) {
+            revert CallerNotBridge();
+        }
+
+        _;
     }
 
-    function receiveFunds(address _recipient) public payable {
-        require(msg.value > 0, "Value must be greater than 0");
-        require(_recipient != address(0), "Invalid recipient address");
-
-        value = msg.value;
-        sender = msg.sender;
-        recipient = _recipient;
-
-        payable(accountNotary).transfer(msg.value);
-        //require(success, "Transfer failed");
-
-        fundsReceived = true;
+    constructor(address tokenAddress) {
+        token = IERC20(tokenAddress);
     }
 
-     function verifyFundsReceived() public view returns(bool) {
-        return fundsReceived;
+    function deposit(uint256 amount, address receiver) external {
+        token.safeTransferFrom(msg.sender, address(this), amount);
+
+        lastDepositID++;
+
+        emit Deposit(lastDepositID, msg.sender, receiver, amount);
     }
 
-    function transferContract() public payable {
+    function executeBridge(
+        uint256 originChainDepositID,
+        address receiver,
+        uint256 amount
+    ) external onlyBridgeNode {
+        if (executedDeposits[originChainDepositID]) {
+            revert AlreadyExecuted();
+        }
 
-    }   
+        if (lockedUntil[msg.sender] > block.timestamp) {
+            revert Locked();
+        }
 
-    function sendEther(address _recipient, uint256 _amount) public {
-        // Verifica se o chamador da função é o proprietário do contrato
-        require(msg.sender == accountNotary, "Unauthorized");
+        if (amount > stakes[msg.sender] / 10) {
+            revert NotEnoughStake();
+        }
 
-        // Transfere Ether para o destinatário especificado
-        require(address(this).balance >= _amount, "Insufficient balance in contract");
-        payable(_recipient).transfer(_amount);
+        uint256 fee = (amount * BRIDGE_FEE_PERCENTAGE) / HUNDRED;
+        uint256 amountAfterFee = amount - fee;
+
+        token.safeTransfer(receiver, amountAfterFee);
+        token.safeTransfer(msg.sender, fee);
+
+        executedDeposits[originChainDepositID] = true;
+        lockedUntil[msg.sender] = block.timestamp + LOCK_PERIOD;
+
+        emit ExecuteBridge(originChainDepositID, msg.sender, receiver, amount);
+    }
+
+    function stake(uint256 amount) external {
+        if (amount < MINIMUM_STAKE_AMOUNT) {
+            revert NotEnoughStake();
+        }
+
+        token.safeTransferFrom(msg.sender, address(this), amount);
+
+        stakes[msg.sender] += amount;
+        totalStaked += amount;
+
+        emit Stake(msg.sender, amount);
+    }
+
+    function unstake(uint256 amount) external {
+        if (amount > stakes[msg.sender]) {
+            revert NotEnoughStake();
+        }
+
+        if (lockedUntil[msg.sender] > block.timestamp) {
+            revert Locked();
+        }
+
+        token.safeTransfer(msg.sender, amount);
+
+        stakes[msg.sender] -= amount;
+        totalStaked -= amount;
+
+        emit Unstake(msg.sender, amount);
+    }
+
+    function voteToBlacklistNode(address node) external onlyBridgeNode {
+        if (stakes[node] == 0) {
+            revert AlreadyBlacklisted();
+        }
+
+        blacklistVotes[node] += stakes[msg.sender];
+
+        if (blacklistVotes[node] > totalStaked / 2) {
+            stakes[node] = 0;
+        }
+
+        emit VoteToBlacklistNode(msg.sender, node);
     }
 }
-
-//.......Migrar os contratos nas blockchains........
-// truffle migrate --network blockchainA --reset 
-// truffle migrate --network blockchainB --reset
-//..................................................
-
-//............Interagir com os contratos.............
-//  truffle console --network blockchainA
-//  truffle console --network blockchainB
-//...................................................
-
-//............BLOCKCHAIN A..........................
-//  let notary = await Notary.deployed()
-//  let contas = await web3.eth.getAccounts()
-//  notary.receiveFunds("0xf1318EA025Ea1Aa9D9B35DfF384F799695231Df4", {value: 10000000000000000000, from: contas[1]})
-//...................................................
-
-//............BLOCKCHAIN B..........................
-//  let notary = await Notary.deployed()
-//  let contas = await web3.eth.getAccounts()
-//  notary.transferContract({value: 10000000000000000000, from: contas[0]})
-//  web3.eth.getBalance(notary.address)   --> saldo do contrato
-
-//  const valor = web3.utils.toWei('10', 'ether')
-//  notary.sendEther("0xc57E5ef3F9923950beD3A70A7508071df517E468", '10000000000000000000')

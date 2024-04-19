@@ -18,8 +18,11 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-//
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+
+const mnemonicSepolia = "glance observe frost erupt square guilt normal lend fee icon bicycle swallow";
+const mnemonicMumbai = "gentle sell brief prosper deliver gauge exact blood issue monkey violin dress";
+
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
@@ -35,16 +38,20 @@ module.exports = {
    */
 
   networks: {
-    blockchainA: {
-      host: "127.0.0.1",
-      port: 7545, // Porta do primeiro Ganache
-      network_id: "*", // Match any network id
+    sepolia: {
+      provider: function() {
+        return new HDWalletProvider(mnemonicSepolia, "https://eth-sepolia.g.alchemy.com/v2/bDjxjFADcYvYa7g5E5nW7LatEgYhQkjN")
+      },
+      network_id: 11155111
     },
-    blockchainB: {
-      host: "127.0.0.1",
-      port: 7546, // Porta do segundo Ganache
-      network_id: "*", // Match any network id
+    
+    mumbai: {
+      provider: function() {
+        return new HDWalletProvider(mnemonicMumbai, "https://polygon-mumbai.g.alchemy.com/v2/Dk8jSsiNhSsEwFhFOMDKQapayshs47nV")
+      },
+      network_id: 80001
     },
+    
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal
@@ -91,7 +98,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.8.11",    // Fetch exact version from solc-bin (default: truffle's version)
+      version: "0.8.20",    // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
       //  optimizer: {
