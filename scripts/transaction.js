@@ -36,7 +36,7 @@ async function main() {
     depositSepolia.wait();
     console.log("id: ", await sepoliaNotaryContract.lastDepositID());
 
-    const executeBridgeAmoy = await amoyNotaryContract.connect(amoyWallet).executeBridge(11155111, "<amoyAccountAddress>", amount, { gasLimit: 1000000 });
+    const executeBridgeAmoy = await amoyNotaryContract.connect(amoyWallet).executeBridge(10001, "<amoyAccountAddress>", amount, { gasLimit: 1000000 });
     executeBridgeAmoy.wait();
     console.log("balanceOf: ", await amoyTokenContract.balanceOf("<amoyAccountAddress>"));
 }
