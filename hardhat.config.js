@@ -1,6 +1,6 @@
 /** @type import('hardhat/config').HardhatUserConfig */
-require('@nomiclabs/hardhat-waffle');
-// require("dotenv").config();
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
 module.exports = {
   solidity: "0.8.24",
@@ -9,14 +9,14 @@ module.exports = {
     hardhat: {
     },
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/<API key>",
+      url: `${process.env.NODE_URL_SEPOLIA}`,
       chainId: 11155111,
-      accounts: [privateKey1, privateKey2, privateKey3],
+      accounts: [process.env.SEPOLIA_PRIVATE_KEY01, process.env.SEPOLIA_PRIVATE_KEY02],
     },
     amoy: {
-      url: "https://polygon-amoy.g.alchemy.com/v2/<API key>",
+      url: `${process.env.NODE_URL_AMOY}`,
       chainId: 80002,
-      accounts: [privateKey1, privateKey2, privateKey3],
+      accounts: [process.env.AMOY_PRIVATE_KEY01, process.env.AMOY_PRIVATE_KEY02],
     },
   },
 };

@@ -1,36 +1,71 @@
-require("@nomiclabs/hardhat-waffle");
-require("@nomiclabs/hardhat-ethers");
+const hre = require("hardhat");
+const { ethers } = require("hardhat");
+require("dotenv").config();
 
 async function main() {
     const networkName = hre.network.name;
-    const chainIdHex = await hre.network.provider.send("eth_chainId");
-    const chainIdDec = parseInt(chainIdHex, 16);
+    const chainIdDec = hre.network.config.chainId;
+    
+    console.log(`\n--- Deploying on ${networkName} (ChainId: ${chainIdDec}) ---`);
+
     let holders;
-    console.log(`Network: ${networkName} | ChainId: (${chainIdDec})`);
-
-    if(chainIdDec == 11155111){
-        console.log("Deploying on SEPOLIA:");
-        // holders = [privateKey1, privateKey2, privateKey3]; // Add your private keys here
-    }else if(chainIdDec == 80002){
-        console.log("Deploying on AMOY:");
-        // holders = [privateKey1, privateKey2, privateKey3]; // Add your private keys here
-
-    }else{
-        throw new Error("Please indicate your network! (sepolia or amoy)");
+    if (chainIdDec === 11155111) { // Sepolia
+        const wallet1 = new ethers.Wallet(process.env.SEPOLIA_PRIVATE_KEY01);
+        const wallet2 = new ethers.Wallet(process.env.SEPOLIA_PRIVATE_KEY02);
+        holders = [wallet1.address, wallet2.address];
+        console.log("Configuring holders for SEPOLIA deployment.");
+    } else if (chainIdDec === 80002) { // Amoy
+        const wallet1 = new ethers.Wallet(process.env.AMOY_PRIVATE_KEY01);
+        const wallet2 = new ethers.Wallet(process.env.AMOY_PRIVATE_KEY02);
+        holders = [wallet1.address, wallet2.address];
+        console.log("Configuring holders for AMOY deployment.");
+    } else {
+        throw new Error("Unsupported network! Please use 'sepolia' or 'amoy'.");
     }
 
+    await hre.run('compile');
+
+    // Deploy Token
+    const tokenStartTime = Date.now();
     const Token = await ethers.getContractFactory("Token");
     const token = await Token.deploy(holders);
-    console.log("Tokens address: ", token.address);
+    await token.waitForDeployment(); 
+    
+    const tokenAddress = await token.getAddress();
+    const tokenDeploymentTx = token.deploymentTransaction();
+    const tokenReceipt = await tokenDeploymentTx.wait();
+    
+    console.log("\n-----------------------------------------");
+    console.log(`Token address: ${tokenAddress}`);
+    console.log(`Deployed by: ${tokenDeploymentTx.from}`);
+    console.log(`Gas Used: ${tokenReceipt.gasUsed.toString()}`);
+    console.log(`Token Deployment Time: ${Date.now() - tokenStartTime} ms`);
+    console.log("-----------------------------------------");
 
+    //Deploy Notary
+    const notaryStartTime = Date.now();
     const Notary = await ethers.getContractFactory("Notary");
-    const notary = await Notary.deploy(token.address);
-    console.log("Notary address: ", notary.address);
+    const notary = await Notary.deploy(tokenAddress);
+    await notary.waitForDeployment();
+
+    const notaryAddress = await notary.getAddress();
+    const notaryDeploymentTx = notary.deploymentTransaction();
+    const notaryReceipt = await notaryDeploymentTx.wait();
+
+    console.log("\n-----------------------------------------");
+    console.log(`Notary address: ${notaryAddress}`);
+    console.log(`Deployed by: ${notaryDeploymentTx.from}`);
+    console.log(`Gas Used: ${notaryReceipt.gasUsed.toString()}`);
+    console.log(`Notary Deployment Time: ${Date.now() - notaryStartTime} ms`);
+    console.log("-----------------------------------------");
+
+    console.log("\nDeployment process finished successfully!");
 }
 
 main()
     .then(() => process.exit(0))
     .catch(error => {
+        console.error("An error occurred during deployment:");
         console.error(error);
         process.exit(1);
     });

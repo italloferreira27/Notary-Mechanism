@@ -42,7 +42,7 @@ describe("Deploy", ()=> {
         });
     });
 
-    describe('Trazacoes', async () => {
+    describe('Trasacoes', async () => {
         it("Realizar o deposito", async () => {
             const amount = parseEther('1');
             await token.approve(notary.address, amount);
