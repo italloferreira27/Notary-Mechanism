@@ -2,7 +2,9 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import {
+    SafeERC20
+} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
 error CallerNotBridge();
 error NotEnoughStake();
@@ -83,11 +85,11 @@ contract Notary {
         uint256 fee = (amount * BRIDGE_FEE_PERCENTAGE) / HUNDRED;
         uint256 amountAfterFee = amount - fee;
 
-        token.safeTransfer(receiver, amountAfterFee);
-        token.safeTransfer(msg.sender, fee);
-
         executedDeposits[originChainDepositID] = true;
         lockedUntil[msg.sender] = block.timestamp + LOCK_PERIOD;
+
+        token.safeTransfer(receiver, amountAfterFee);
+        token.safeTransfer(msg.sender, fee);
 
         emit ExecuteBridge(originChainDepositID, msg.sender, receiver, amount);
     }
@@ -97,10 +99,10 @@ contract Notary {
             revert NotEnoughStake();
         }
 
-        token.safeTransferFrom(msg.sender, address(this), amount);
-
         stakes[msg.sender] += amount;
         totalStaked += amount;
+
+        token.safeTransferFrom(msg.sender, address(this), amount);
 
         emit Stake(msg.sender, amount);
     }
@@ -114,10 +116,10 @@ contract Notary {
             revert Locked();
         }
 
-        token.safeTransfer(msg.sender, amount);
-
         stakes[msg.sender] -= amount;
         totalStaked -= amount;
+
+        token.safeTransfer(msg.sender, amount);
 
         emit Unstake(msg.sender, amount);
     }
