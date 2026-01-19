@@ -1,9 +1,6 @@
-// require("@nomiclabs/hardhat-waffle");
-// require("@nomiclabs/hardhat-ethers");
 const fs = require('fs');
 require("dotenv").config();
-const { utils } = require("ethers");
-const { parseEther } = require('ethers/lib/utils');
+const { ethers } = require("hardhat");
 const axios = require('axios');
 
 
@@ -28,10 +25,10 @@ async function main() {
     const notaryAddressAvalanche = "0x8070cDb82E1991866dbb459e13A7b38e0662e7A8";
 
     const tokenAddressAmoy = "0x6a288157c6fA51014289Ad0b133D4cdb67bD78E9";
-    const notaryAddressAmoy = "0x27f677B17e0acc9207A2648B664F866c7f278AA5";  
+    const notaryAddressAmoy = "0x27f677B17e0acc9207A2648B664F866c7f278AA5";
 
-    const avalancheProvider = new ethers.providers.JsonRpcProvider(NODE_URL_AVALANCHE);
-    const amoyProvider = new ethers.providers.JsonRpcProvider(NODE_URL_AMOY);
+    const avalancheProvider = new ethers.JsonRpcProvider(NODE_URL_AVALANCHE);
+    const amoyProvider = new ethers.JsonRpcProvider(NODE_URL_AMOY);
 
     const avalancheWallet = new ethers.Wallet(AVALANCHE_PRIVATE_KEY01, avalancheProvider);
     const amoyWallet = new ethers.Wallet(AMOY_PRIVATE_KEY01, amoyProvider);
@@ -45,17 +42,17 @@ async function main() {
     const chainIdHex = await hre.network.provider.send("eth_chainId");
     const chainIdDec = parseInt(chainIdHex, 16);
     console.log(`Network: ${networkName} | ChainId: (${chainIdDec})`);
-    
+
     if (chainIdDec == 43113) { // Avalanche Mainnet Chain ID
         console.log("Avalanche -> Amoy");
-        const amount = parseEther('1');
+        const amount = ethers.parseEther('1');
         const fullTimeStart = Date.now();
 
-        const timeAproveAvalancheStart = Date.now(); 
+        const timeAproveAvalancheStart = Date.now();
         const approveAvalanche = await avalancheTokenContract.connect(avalancheWallet).approve(
-            avalancheNotaryContract.address, 
-            amount, 
-            { gasLimit: 1000000, maxFeePerGas: ethers.utils.parseUnits('30', 'gwei'), maxPriorityFeePerGas: ethers.utils.parseUnits('1.5', 'gwei') }
+            avalancheNotaryContract.address,
+            amount,
+            { gasLimit: 1000000, maxFeePerGas: ethers.parseUnits('30', 'gwei'), maxPriorityFeePerGas: ethers.parseUnits('1.5', 'gwei') }
         );
 
         const receiptAvalancheApprove = await approveAvalanche.wait();
@@ -63,13 +60,13 @@ async function main() {
         const timeAproveAvalancheEnd = Date.now();
         const timeAproveAvalanche = (timeAproveAvalancheEnd - timeAproveAvalancheStart);
 
-        const publicKeyAmoy02 = utils.computeAddress(AMOY_PRIVATE_KEY02);
+        const publicKeyAmoy02 = ethers.computeAddress(AMOY_PRIVATE_KEY02);
 
         const timeDepositAvalancheStart = Date.now();
         const depositAvalanche = await avalancheNotaryContract.connect(avalancheWallet).deposit(
-            amount, 
-            publicKeyAmoy02, 
-            { gasLimit: 1000000, maxFeePerGas: ethers.utils.parseUnits('30', 'gwei'), maxPriorityFeePerGas: ethers.utils.parseUnits('1.5', 'gwei') }
+            amount,
+            publicKeyAmoy02,
+            { gasLimit: 1000000, maxFeePerGas: ethers.parseUnits('30', 'gwei'), maxPriorityFeePerGas: ethers.parseUnits('1.5', 'gwei') }
         );
         const receiptDepositAvalanche = await depositAvalanche.wait();
         const gasUsedDepositAvalanche = receiptDepositAvalanche.gasUsed;
@@ -81,13 +78,13 @@ async function main() {
 
         const timeExecuteBridgeAmoyStart = Date.now();
         const executeBridgeAmoy = await amoyNotaryContract.connect(amoyWallet).executeBridge(
-            id, 
-            publicKeyAmoy02, 
-            amount, 
-            { 
-                gasLimit: 1000000, 
-                maxFeePerGas: ethers.utils.parseUnits('30', 'gwei'), 
-                maxPriorityFeePerGas: ethers.utils.parseUnits('25', 'gwei') 
+            id,
+            publicKeyAmoy02,
+            amount,
+            {
+                gasLimit: 1000000,
+                maxFeePerGas: ethers.parseUnits('30', 'gwei'),
+                maxPriorityFeePerGas: ethers.parseUnits('25', 'gwei')
             }
         );
         const receiptExecuteBridgeAmoy = await executeBridgeAmoy.wait();
@@ -101,8 +98,8 @@ async function main() {
         const fullTime = (fullTimeEnd - fullTimeStart);
         console.log("Full Time: ", fullTime, "ms");
 
-        const gasPriceAmoy = await amoyProvider.getGasPrice();
-        const gasPriceAvalanche = await avalancheProvider.getGasPrice();
+        const gasPriceAmoy = (await amoyProvider.getFeeData()).gasPrice;
+        const gasPriceAvalanche = (await avalancheProvider.getFeeData()).gasPrice;
 
         // Data
         const timeElapsed = Date.now();
@@ -131,7 +128,7 @@ async function main() {
             const headers = 'date,gasUsedApproveAvalanche,gasUsedDepositAvalanche,gasUsedExecuteBridgeAmoy,timeAproveAvalanche,timeDepositAvalanche,timeExecuteBridgeAmoy,priceAvalanche,priceAmoy,full Time(ms),gasPriceAvalanche,gasPriceAmoy\n';
             fs.appendFileSync('./metrics/transactionAvalanche_Amoy.csv', headers);
         }
-    
+
         // Append the CSV data to the file
         fs.appendFileSync('./metrics/transactionAvalanche_Amoy.csv', csvContent + '\n', (err) => {
             if (err) {
@@ -144,18 +141,18 @@ async function main() {
         console.log("Amoy -> Fuji");
 
         const gasConfig = {
-            maxPriorityFeePerGas: ethers.utils.parseUnits("30", "gwei"), // Ajuste conforme a rede
-            maxFeePerGas: ethers.utils.parseUnits("60", "gwei"), // Ajuste conforme a rede
+            maxPriorityFeePerGas: ethers.parseUnits("30", "gwei"), // Ajuste conforme a rede
+            maxFeePerGas: ethers.parseUnits("60", "gwei"), // Ajuste conforme a rede
             gasLimit: 1000000
         };
 
-        const amount = parseEther('1');
+        const amount = ethers.parseEther('1');
         const fullTimeStart = Date.now();
 
         const timeAproveAmoyStart = Date.now();
         const aproveAmoy = await amoyTokenContract.connect(amoyWallet).approve(
-            amoyNotaryContract.address, 
-            amount, 
+            amoyNotaryContract.address,
+            amount,
             gasConfig
         );
         const receiptAmoyAprove = await aproveAmoy.wait();
@@ -163,12 +160,12 @@ async function main() {
         const timeAproveAmoyEnd = Date.now();
         const timeAproveAmoy = (timeAproveAmoyEnd - timeAproveAmoyStart);
 
-        const publicKeyAvax02 = utils.computeAddress(AVALANCHE_PRIVATE_KEY02);
+        const publicKeyAvax02 = ethers.computeAddress(AVALANCHE_PRIVATE_KEY02);
 
         const timeDepositAmoyStart = Date.now();
         const depositAmoy = await amoyNotaryContract.connect(amoyWallet).deposit(
-            amount, 
-            publicKeyAvax02, 
+            amount,
+            publicKeyAvax02,
             gasConfig
         );
         const receiptDepositAmoy = await depositAmoy.wait();
@@ -181,13 +178,13 @@ async function main() {
 
         const timeExecuteBridgeAvalancheStart = Date.now();
         const executeBridgeAvax = await avalancheNotaryContract.connect(avalancheWallet).executeBridge(
-            id, 
-            publicKeyAvax02, 
-            amount, 
-            { 
-                gasLimit: 1000000, 
-                maxFeePerGas: ethers.utils.parseUnits('60', 'gwei'), 
-                maxPriorityFeePerGas: ethers.utils.parseUnits('30', 'gwei') 
+            id,
+            publicKeyAvax02,
+            amount,
+            {
+                gasLimit: 1000000,
+                maxFeePerGas: ethers.parseUnits('60', 'gwei'),
+                maxPriorityFeePerGas: ethers.parseUnits('30', 'gwei')
             }
         );
         const receiptExecuteBridgeAvax = await executeBridgeAvax.wait();
@@ -201,8 +198,8 @@ async function main() {
         const fullTime = (fullTimeEnd - fullTimeStart);
         console.log("Full Time: ", fullTime, "ms");
 
-        const gasPriceAmoy = await amoyProvider.getGasPrice();
-        const gasPriceAvax = await avalancheProvider.getGasPrice();
+        const gasPriceAmoy = (await amoyProvider.getFeeData()).gasPrice;
+        const gasPriceAvax = (await avalancheProvider.getFeeData()).gasPrice;
 
         // date
         const timeElapsed = Date.now();

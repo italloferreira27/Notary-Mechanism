@@ -11,20 +11,20 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
-    "@nomicfoundation/hardhat-ethers": "^4.0.4",
-    "@nomicfoundation/hardhat-network-helpers": "^3.0.3",
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@typechain/ethers-v6": "^0.5.1",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
     "@typechain/hardhat": "^9.1.0",
-    "chai": "^6.2.2",
+    "chai": "^4.3.10",
     "ethers": "^6.16.0",
-    "hardhat": "^2.22.0",
+    "hardhat": "^2.24.2",
     "typechain": "^8.3.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   }
 }

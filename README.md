@@ -108,6 +108,9 @@ Os contratos `Token.sol` e `Notary.sol` devem ser implantados em ambas as redes.
 # Implantação na Rede Sepolia
 npx hardhat run scripts/deploy.js --network sepolia
 
+# Implantação na Rede Fuji
+npx hardhat run scripts/deploy.js --network fuji
+
 # Implantação na Rede Amoy
 npx hardhat run scripts/deploy.js --network amoy
 ```
