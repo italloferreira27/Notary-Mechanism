@@ -18,5 +18,10 @@ module.exports = {
       chainId: 80002,
       accounts: [process.env.AMOY_PRIVATE_KEY01, process.env.AMOY_PRIVATE_KEY02],
     },
+    fuji: {
+      url: `${process.env.NODE_URL_AVALANCHE}`,
+      chainId: 43113,
+      accounts: [process.env.AVALANCHE_PRIVATE_KEY01, process.env.AVALANCHE_PRIVATE_KEY02],
+    },
   },
 };

@@ -62,7 +62,7 @@ async function main() {
         maxPriorityFeePerGas: ethers.parseUnits('25', 'gwei'),
         maxFeePerGas: ethers.parseUnits('50', 'gwei')
     });
-    await depositAmoyTx.wait(); 
+    await depositAmoyTx.wait
     console.log(`Depósito realizado na Amoy. Transação: ${depositAmoyTx.hash}`);
     const lastDepositIdAmoy = await amoyNotaryContract.lastDepositID();
     console.log(`Último ID de Depósito na Amoy: ${lastDepositIdAmoy.toString()}`); 
