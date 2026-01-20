@@ -21,11 +21,11 @@ async function getCryptoPrice(cryptoId) {
 }
 
 async function main() {
-    const tokenAddressAvalanche = "0x704aDB991E8C5Bc72A00f064D0A4f2fF8c2C8A1B";
-    const notaryAddressAvalanche = "0x8070cDb82E1991866dbb459e13A7b38e0662e7A8";
+    const tokenAddressAvalanche = "0xB6C8fffc4b38a30d31F7634B510a2c311831b12e";
+    const notaryAddressAvalanche = "0x9aFF061470aF2d9cD04F083a5c3230812c3c5d02";
 
-    const tokenAddressAmoy = "0x6a288157c6fA51014289Ad0b133D4cdb67bD78E9";
-    const notaryAddressAmoy = "0x27f677B17e0acc9207A2648B664F866c7f278AA5";
+    const tokenAddressAmoy = "0x1C6806B61183331A2B3BB32C93DBeb0bE195F1dF";
+    const notaryAddressAmoy = "0xc64da9294F99E41B2679303a815c0AbCA217c6AA";
 
     const avalancheProvider = new ethers.JsonRpcProvider(NODE_URL_AVALANCHE);
     const amoyProvider = new ethers.JsonRpcProvider(NODE_URL_AMOY);
@@ -50,7 +50,7 @@ async function main() {
 
         const timeAproveAvalancheStart = Date.now();
         const approveAvalanche = await avalancheTokenContract.connect(avalancheWallet).approve(
-            avalancheNotaryContract.address,
+            avalancheNotaryContract.target,
             amount,
             { gasLimit: 1000000, maxFeePerGas: ethers.parseUnits('30', 'gwei'), maxPriorityFeePerGas: ethers.parseUnits('1.5', 'gwei') }
         );
@@ -146,12 +146,14 @@ async function main() {
             gasLimit: 1000000
         };
 
+        // console.log("Gas Config: ", gasConfig);
+
         const amount = ethers.parseEther('1');
         const fullTimeStart = Date.now();
 
         const timeAproveAmoyStart = Date.now();
         const aproveAmoy = await amoyTokenContract.connect(amoyWallet).approve(
-            amoyNotaryContract.address,
+            amoyNotaryContract.target,
             amount,
             gasConfig
         );
