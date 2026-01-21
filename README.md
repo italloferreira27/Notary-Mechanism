@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/italloferreira27/Notary-Mechanism/blob/sepolia-amoy--hardhat/LICENSE) 
 ## 1\. Visão Geral do Projeto
 
-Este projeto demonstra a implementação de um mecanismo notarial para facilitar a interoperabilidade de Tokens Fungíveis (ERC-20) entre redes blockchain distintas. O escopo atual da implementação abrange as redes de teste Sepolia (Ethereum) e Amoy (Polygon PoS), servindo como uma prova de conceito para a transferência de ativos digitais entre ecossistemas.
+Este projeto demonstra a implementação de um mecanismo notarial para facilitar a interoperabilidade de Tokens Fungíveis (ERC-20) entre redes blockchain distintas. O escopo atual da implementação abrange as redes de teste **Sepolia (Ethereum)**, **Amoy (Polygon PoS)** e **Fuji (Avalanche C-Chain)**, servindo como uma prova de conceito para a transferência de ativos digitais entre ecossistemas.
 
 ## 2\. Fundamentos Teóricos
 
@@ -18,7 +18,7 @@ O mecanismo notarial, no contexto de bridges inter-cadeias, atua como um sistema
 
 ## 3\. Arquitetura e Fluxo Operacional
 
-O sistema Notary Mechanism é composto por um par de contratos inteligentes `Token.sol` (ERC-20) e `Notary.sol` (o contrato da ponte), implantados simetricamente em ambas as redes Sepolia e Amoy. A comunicação entre as cadeias é mediada por entidades conhecidas como **notários** (ou stakers), que são incentivadas e fiscalizadas pelo próprio mecanismo.
+O sistema Notary Mechanism é composto por um par de contratos inteligentes `Token.sol` (ERC-20) e `Notary.sol` (o contrato da ponte), implantados simetricamente nas redes suportadas (Sepolia, Amoy e Fuji). A comunicação entre as cadeias é mediada por entidades conhecidas como **notários** (ou stakers), que são incentivadas e fiscalizadas pelo próprio mecanismo.
 
 ### 3.1. Requisitos e Pré-condições
 
@@ -84,13 +84,16 @@ Crie um arquivo `.env` na raiz do projeto e preencha com as variáveis necessár
 # URLs dos Nós RPC (Substitua por suas chaves de API válidas)
 NODE_URL_SEPOLIA="https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY_SEPOLIA"
 NODE_URL_AMOY="https://polygon-amoy.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY_AMOY"
+NODE_URL_AVALANCHE="https://avalanche-fuji.infura.io/v3/YOUR_INFURA_API_KEY_FUJI"
 
 # Chaves Privadas das Contas (Nunca exponha em um repositório público!)
-# Certifique-se que estas contas possuem fundos (ETH/MATIC) nas respectivas redes de teste
+# Certifique-se que estas contas possuem fundos (ETH/MATIC/AVAX) nas respectivas redes de teste
 SEPOLIA_PRIVATE_KEY01="sua_chave_privada_sepolia_conta_1"
 SEPOLIA_PRIVATE_KEY02="sua_chave_privada_sepolia_conta_2"
 AMOY_PRIVATE_KEY01="sua_chave_privada_amoy_conta_1"
 AMOY_PRIVATE_KEY02="sua_chave_privada_amoy_conta_2"
+AVALANCHE_PRIVATE_KEY01="sua_chave_privada_avalanche_conta_1"
+AVALANCHE_PRIVATE_KEY02="sua_chave_privada_avalanche_conta_2"
 
 # Endereços dos Contratos (Serão gerados após o deploy)
 # ATUALIZE ESTES VALORES APÓS CADA DEPLOY
@@ -98,6 +101,8 @@ TOKEN_ADDRESS_SEPOLIA="0x..."
 NOTARY_ADDRESS_SEPOLIA="0x..."
 TOKEN_ADDRESS_AMOY="0x..."
 NOTARY_ADDRESS_AMOY="0x..."
+TOKEN_ADDRESS_AVALANCHE="0x..."
+NOTARY_ADDRESS_AVALANCHE="0x..."
 ```
 
 ### 4.3. Implantação dos Contratos (Deploy)
@@ -129,24 +134,30 @@ Este script executa o processo de aprovação e stake nas redes Sepolia e Amoy. 
 
 ### 4.5. Execução da Transação Inter-cadeia
 
-Com os contratos implantados e os notários registrados, a transação inter-cadeia pode ser iniciada com os dois scripts a seguir:
+Com os contratos implantados e os notários registrados, a transação inter-cadeia pode ser iniciada. O script `scripts/transactionMetrics.js` gerencia as transações entre as redes configuradas.
 
+#### 4.5.1. Transferência entre Fuji e Amoy
 
-#### 4.5.1. Transferência de Sepolia para Amoy
-
-Este script (`scripts/transactionSepoliaToAmoy.js`) simula o processo de um usuário depositando tokens na rede Sepolia para um destinatário na rede Amoy. Ele executa a sequência completa de aprovação do token na Sepolia, o depósito no contrato Notary da Sepolia e, em seguida, a execução da ponte por um notário na rede Amoy.
-
-```bash
-npx hardhat run scripts/transactionSepoliaToAmoy.js
-```
-
-#### 4.5.2. Transferência de Amoy para Sepolia
-
-Este script (`scripts/transactionAmoyToSepolia.js`) demonstra o fluxo inverso. Ele simula um usuário depositando tokens na rede Amoy para um destinatário na rede Sepolia. O processo envolve a aprovação do token na Amoy, o depósito no contrato Notary da Amoy e, posteriormente, a execução da ponte por um notário na rede Sepolia.
+Para transferir de **Fuji para Amoy**:
 
 ```bash
-npx hardhat run scripts/transactionAmoyToSepolia.js
+npx hardhat run scripts/transactionMetrics.js --network fuji
 ```
+
+Para transferir de **Amoy para Fuji**:
+
+```bash
+npx hardhat run scripts/transactionMetrics.js --network amoy
+```
+
+#### 4.5.2. Outras Transferências (Legado)
+
+Os scripts `scripts/transactionSepoliaToAmoy.js` e `scripts/transactionAmoyToSepolia.js` podem ser utilizados para transferências entre Sepolia e Amoy, seguindo a lógica similar.
+
+*   **Sepolia -> Amoy:** `npx hardhat run scripts/transactionSepoliaToAmoy.js`
+*   **Amoy -> Sepolia:** `npx hardhat run scripts/transactionAmoyToSepolia.js`
+
+
 
 ## 5\. Ferramentas e Tecnologias
 
