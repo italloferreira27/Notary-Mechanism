@@ -4,6 +4,31 @@
 
 Este projeto demonstra a implementação de um mecanismo notarial para facilitar a interoperabilidade de Tokens Fungíveis (ERC-20) entre redes blockchain distintas. O escopo atual da implementação abrange as redes de teste **Sepolia (Ethereum)**, **Amoy (Polygon PoS)** e **Fuji (Avalanche C-Chain)**, servindo como uma prova de conceito para a transferência de ativos digitais entre ecossistemas.
 
+### 1.1. Overview
+
+This is a Notary Bridge Contract that enables cross-chain token transfers via trusted bridge nodes. Key features:
+
+Staking Mechanism:
+Bridge nodes must stake a minimum of 10 ETH (or equivalent tokens) to participate.
+Staked tokens are locked during bridge operations.
+
+Cross-Chain Transfers:
+Users deposit tokens into the contract, which are later executeBridged by nodes to the destination chain.
+Nodes earn a 5% fee on each transfer.
+
+Security:
+Lock Period: Nodes are locked for 60 seconds after executing a bridge to prevent front-running.
+Slashing: Nodes can be blacklisted via voting if they misbehave (requires >50% stake consensus).
+
+Events:
+Tracks deposits, executions, staking, unstaking, and blacklist votes.
+Access Control:
+Only staked nodes can execute bridges or vote.
+
+Flow:
+User deposits tokens → 2. Node executes bridge → 3. Receiver gets tokens (minus fee).
+
+
 ## 2\. Fundamentos Teóricos
 
 ### 2.1. Interoperabilidade Blockchain

@@ -1,0 +1,1283 @@
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5421 ms
+Deposit Avalanche:  5625 ms
+ID último depósito:  13
+BalanceOf:  1000011400000000000000000n
+Full Time:  23644 ms
+
+Date:  2026-01-30T03:15:33.330Z
+Preço atual de avalanche-2 em USD: $10.94
+Preço atual de polygon-ecosystem-token em USD: $0.110598
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10628 ms
+Deposit Avalanche:  10438 ms
+ID último depósito:  14
+BalanceOf:  1000012350000000000000000n
+Full Time:  33769 ms
+
+Date:  2026-01-30T03:25:44.975Z
+Preço atual de avalanche-2 em USD: $10.92
+Preço atual de polygon-ecosystem-token em USD: $0.110584
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5405 ms
+Deposit Avalanche:  10545 ms
+ID último depósito:  15
+BalanceOf:  1000013300000000000000000n
+Full Time:  101867 ms
+
+Date:  2026-01-30T03:36:52.709Z
+Preço atual de avalanche-2 em USD: $10.91
+Preço atual de polygon-ecosystem-token em USD: $0.110379
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10540 ms
+Deposit Avalanche:  10386 ms
+ID último depósito:  16
+BalanceOf:  1000014250000000000000000n
+Full Time:  33579 ms
+
+Date:  2026-01-30T03:45:45.001Z
+Preço atual de avalanche-2 em USD: $10.91
+Preço atual de polygon-ecosystem-token em USD: $0.110163
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5422 ms
+Deposit Avalanche:  10134 ms
+ID último depósito:  17
+BalanceOf:  1000015200000000000000000n
+Full Time:  229677 ms
+
+Date:  2026-01-30T03:59:01.466Z
+Preço atual de avalanche-2 em USD: $10.9
+Preço atual de polygon-ecosystem-token em USD: $0.109944
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  15559 ms
+Deposit Avalanche:  5627 ms
+ID último depósito:  18
+BalanceOf:  1000016150000000000000000n
+Full Time:  33785 ms
+
+Date:  2026-01-30T04:05:43.899Z
+Preço atual de avalanche-2 em USD: $10.91
+Preço atual de polygon-ecosystem-token em USD: $0.1101
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5523 ms
+Deposit Avalanche:  10645 ms
+ID último depósito:  19
+BalanceOf:  1000017100000000000000000n
+Full Time:  28562 ms
+
+Date:  2026-01-30T04:15:39.352Z
+Preço atual de avalanche-2 em USD: $10.93
+Preço atual de polygon-ecosystem-token em USD: $0.110376
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5728 ms
+Deposit Avalanche:  10640 ms
+ID último depósito:  20
+BalanceOf:  1000018050000000000000000n
+Full Time:  392798 ms
+
+Date:  2026-01-30T04:31:41.905Z
+Preço atual de avalanche-2 em USD: $10.97
+Preço atual de polygon-ecosystem-token em USD: $0.111179
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5524 ms
+Deposit Avalanche:  10952 ms
+ID último depósito:  21
+BalanceOf:  1000019000000000000000000n
+Full Time:  29178 ms
+
+Date:  2026-01-30T04:35:41.316Z
+Preço atual de avalanche-2 em USD: $10.98
+Preço atual de polygon-ecosystem-token em USD: $0.111303
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5405 ms
+Deposit Avalanche:  10847 ms
+ID último depósito:  22
+BalanceOf:  1000019950000000000000000n
+Full Time:  28445 ms
+
+Date:  2026-01-30T04:45:39.951Z
+Preço atual de avalanche-2 em USD: $10.96
+Preço atual de polygon-ecosystem-token em USD: $0.111385
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10950 ms
+Deposit Avalanche:  10537 ms
+ID último depósito:  23
+BalanceOf:  1000020900000000000000000n
+Full Time:  34194 ms
+
+Date:  2026-01-30T04:55:43.917Z
+Preço atual de avalanche-2 em USD: $10.97
+Preço atual de polygon-ecosystem-token em USD: $0.111484
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5628 ms
+Deposit Avalanche:  10693 ms
+ID último depósito:  24
+BalanceOf:  1000021850000000000000000n
+Full Time:  302179 ms
+
+Date:  2026-01-30T05:10:12.076Z
+Preço atual de avalanche-2 em USD: $10.96
+Preço atual de polygon-ecosystem-token em USD: $0.111151
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10542 ms
+Deposit Avalanche:  5621 ms
+ID último depósito:  25
+BalanceOf:  1000022800000000000000000n
+Full Time:  152775 ms
+
+Date:  2026-01-30T05:17:45.303Z
+Preço atual de avalanche-2 em USD: $10.96
+Preço atual de polygon-ecosystem-token em USD: $0.111063
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10644 ms
+Deposit Avalanche:  10335 ms
+ID último depósito:  26
+BalanceOf:  1000023750000000000000000n
+Full Time:  227741 ms
+
+Date:  2026-01-30T05:28:59.170Z
+Preço atual de avalanche-2 em USD: $10.95
+Preço atual de polygon-ecosystem-token em USD: $0.111054
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5931 ms
+Deposit Avalanche:  10543 ms
+ID último depósito:  27
+BalanceOf:  1000024700000000000000000n
+Full Time:  386865 ms
+
+Date:  2026-01-30T05:41:37.827Z
+Preço atual de avalanche-2 em USD: $10.95
+Preço atual de polygon-ecosystem-token em USD: $0.111145
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10526 ms
+Deposit Avalanche:  10231 ms
+ID último depósito:  28
+BalanceOf:  1000025650000000000000000n
+Full Time:  33564 ms
+
+Date:  2026-01-30T05:45:45.127Z
+Preço atual de avalanche-2 em USD: $10.94
+Preço atual de polygon-ecosystem-token em USD: $0.111028
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10627 ms
+Deposit Avalanche:  10540 ms
+ID último depósito:  29
+BalanceOf:  1000026600000000000000000n
+Full Time:  545660 ms
+
+Date:  2026-01-30T06:04:16.788Z
+Preço atual de avalanche-2 em USD: $10.94
+Preço atual de polygon-ecosystem-token em USD: $0.110832
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10525 ms
+Deposit Avalanche:  5422 ms
+ID último depósito:  30
+BalanceOf:  1000027550000000000000000n
+Full Time:  28649 ms
+
+Date:  2026-01-30T06:05:39.935Z
+Preço atual de avalanche-2 em USD: $10.93
+Preço atual de polygon-ecosystem-token em USD: $0.11082
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5731 ms
+Deposit Avalanche:  10542 ms
+ID último depósito:  31
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10067 ms
+Deposit Avalanche:  10233 ms
+ID último depósito:  32
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xf6d7b2cff67a0c66c02c083a6423328cfbf293df468e8b4d0c83a3c49e3d8e7c", "blockNumber": 82317168, "contractAddress": null, "cumulativeGasUsed": "29381851", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0xab1c98e1b9737ae19f563310a50253fc2d6d4b80eb926f19a78b4249394f918c", "index": 145, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0xf6d7b2cff67a0c66c02c083a6423328cfbf293df468e8b4d0c83a3c49e3d8e7c", "blockNumber": 82317168, "data": "0x0000000000000000000000000000000000000000000000000002c3c13d49af1b0000000000000000000000000000000000000000000000005a4ae9bf7fc636de00000000000000000000000000000000000000000001ad372a53db991a3f3c580000000000000000000000000000000000000000000000005a4825fe427c87c300000000000000000000000000000000000000000001ad372a569f5a5788eb73", "index": 1578, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0xab1c98e1b9737ae19f563310a50253fc2d6d4b80eb926f19a78b4249394f918c", "transactionIndex": 145 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0xab1c98e1b9737ae19f563310a50253fc2d6d4b80eb926f19a78b4249394f918c',
+    index: 145,
+    blockHash: '0xf6d7b2cff67a0c66c02c083a6423328cfbf293df468e8b4d0c83a3c49e3d8e7c',
+    blockNumber: 82317168,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 29381851n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+BalanceOf:  1000028500000000000000000n
+Full Time:  638159 ms
+
+Date:  2026-01-30T06:25:49.105Z
+Preço atual de avalanche-2 em USD: $10.87
+Preço atual de polygon-ecosystem-token em USD: $0.11004
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5536 ms
+Deposit Avalanche:  10539 ms
+ID último depósito:  33
+BalanceOf:  1000029450000000000000000n
+Full Time:  539441 ms
+
+Date:  2026-01-30T06:44:10.684Z
+Preço atual de avalanche-2 em USD: $10.8
+Preço atual de polygon-ecosystem-token em USD: $0.109277
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10848 ms
+Deposit Avalanche:  10641 ms
+ID último depósito:  34
+BalanceOf:  1000030400000000000000000n
+Full Time:  34399 ms
+
+Date:  2026-01-30T06:45:44.484Z
+Preço atual de avalanche-2 em USD: $10.79
+Preço atual de polygon-ecosystem-token em USD: $0.109262
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10627 ms
+Deposit Avalanche:  5420 ms
+ID último depósito:  35
+BalanceOf:  1000031350000000000000000n
+Full Time:  28649 ms
+
+Date:  2026-01-30T06:55:39.836Z
+Preço atual de avalanche-2 em USD: $10.78
+Preço atual de polygon-ecosystem-token em USD: $0.109243
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10422 ms
+Deposit Avalanche:  5418 ms
+ID último depósito:  36
+BalanceOf:  1000032300000000000000000n
+Full Time:  28650 ms
+
+Date:  2026-01-30T07:05:39.190Z
+Preço atual de avalanche-2 em USD: $10.8
+Preço atual de polygon-ecosystem-token em USD: $0.109602
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10733 ms
+Deposit Avalanche:  10744 ms
+ID último depósito:  37
+BalanceOf:  1000033250000000000000000n
+Full Time:  572913 ms
+
+Date:  2026-01-30T07:24:45.473Z
+Preço atual de avalanche-2 em USD: $10.94
+Preço atual de polygon-ecosystem-token em USD: $0.111155
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  6324 ms
+Deposit Avalanche:  5526 ms
+ID último depósito:  38
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xedee4b5cf5ea717011894dd1ff3d99009d8c6f0ffd7e22c1a57fe5575e11549e", "blockNumber": 82318960, "contractAddress": null, "cumulativeGasUsed": "61955900", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "599617167174", "gasUsed": "29349", "hash": "0xc7066ac76fc9e136fa5bd222c4275cae7d599522f45d78446777ccbed0fa7428", "index": 199, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0xedee4b5cf5ea717011894dd1ff3d99009d8c6f0ffd7e22c1a57fe5575e11549e", "blockNumber": 82318960, "data": "0x00000000000000000000000000000000000000000000000000074c7e425dac00000000000000000000000000000000000000000000000000524281264215c6f400000000000000000000000000000000000000000001b25b7d921d22944ef1ee000000000000000000000000000000000000000000000000523b34a7ffb81af400000000000000000000000000000000000000000001b25b7d9969a0d6ac9dee", "index": 2972, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0xc7066ac76fc9e136fa5bd222c4275cae7d599522f45d78446777ccbed0fa7428", "transactionIndex": 199 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0xc7066ac76fc9e136fa5bd222c4275cae7d599522f45d78446777ccbed0fa7428',
+    index: 199,
+    blockHash: '0xedee4b5cf5ea717011894dd1ff3d99009d8c6f0ffd7e22c1a57fe5575e11549e',
+    blockNumber: 82318960,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 61955900n,
+    gasPrice: 599617167174n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5732 ms
+Deposit Avalanche:  10131 ms
+ID último depósito:  39
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5524 ms
+Deposit Avalanche:  10233 ms
+ID último depósito:  40
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x8be7de7e83d1440121b29bd26bc9077b1a5c3868961d260ae6961c1f95c6029c", "blockNumber": 82319680, "contractAddress": null, "cumulativeGasUsed": "56214554", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0x3a8a09f652aef16c841922ad76fc906f456466bab3bcd9720fc66a92bb24696e", "index": 273, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0x8be7de7e83d1440121b29bd26bc9077b1a5c3868961d260ae6961c1f95c6029c", "blockNumber": 82319680, "data": "0x0000000000000000000000000000000000000000000000000002d1b43b71fd54000000000000000000000000000000000000000000000000504965e5f037cab600000000000000000000000000000000000000000001b492654c93316f7856bf00000000000000000000000000000000000000000000000050469431b4c5cd6200000000000000000000000000000000000000000001b492654f64e5aaea5413", "index": 2939, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0x3a8a09f652aef16c841922ad76fc906f456466bab3bcd9720fc66a92bb24696e", "transactionIndex": 273 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0x3a8a09f652aef16c841922ad76fc906f456466bab3bcd9720fc66a92bb24696e',
+    index: 273,
+    blockHash: '0x8be7de7e83d1440121b29bd26bc9077b1a5c3868961d260ae6961c1f95c6029c',
+    blockNumber: 82319680,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 56214554n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+BalanceOf:  1000034200000000000000000n
+Full Time:  865834 ms
+
+Date:  2026-01-30T07:49:37.799Z
+Preço atual de avalanche-2 em USD: $10.89
+Preço atual de polygon-ecosystem-token em USD: $0.110631
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10602 ms
+Deposit Avalanche:  5317 ms
+ID último depósito:  41
+BalanceOf:  1000035150000000000000000n
+Full Time:  29147 ms
+
+Date:  2026-01-30T07:55:39.386Z
+Preço atual de avalanche-2 em USD: $10.92
+Preço atual de polygon-ecosystem-token em USD: $0.110918
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10746 ms
+Deposit Avalanche:  5519 ms
+ID último depósito:  42
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10438 ms
+Deposit Avalanche:  10230 ms
+ID último depósito:  43
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10442 ms
+Deposit Avalanche:  5217 ms
+ID último depósito:  44
+Error: insufficient funds for intrinsic transaction cost (transaction="0x02f8d48189818285104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d42000000000000000000000000000000000000000000000000000000000000002c000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a040b4b1d0df1ff8a0752c905ca5004ea4c4c34080ee78995a8cf1566c919f2983a07d75028b12e880a9d7ad01e1a7b376f48979312103c3998b550ac9ab56f26086", info={ "error": { "code": -32000, "message": "insufficient funds for gas * price + value: balance 5600798782212687234, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 399201217787312766" } }, code=INSUFFICIENT_FUNDS, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at JsonRpcProvider.getRpcError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:1052:33)
+    at /home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:571:45
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'INSUFFICIENT_FUNDS',
+  transaction: '0x02f8d48189818285104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d42000000000000000000000000000000000000000000000000000000000000002c000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a040b4b1d0df1ff8a0752c905ca5004ea4c4c34080ee78995a8cf1566c919f2983a07d75028b12e880a9d7ad01e1a7b376f48979312103c3998b550ac9ab56f26086',
+  info: {
+    error: {
+      code: -32000,
+      message: 'insufficient funds for gas * price + value: balance 5600798782212687234, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 399201217787312766'
+    }
+  },
+  shortMessage: 'insufficient funds for intrinsic transaction cost'
+}
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5101 ms
+Deposit Avalanche:  10539 ms
+ID último depósito:  45
+Error: insufficient funds for intrinsic transaction cost (transaction="0x02f8d48189818285104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d42000000000000000000000000000000000000000000000000000000000000002d000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c001a0ab329cfdce37500632e2062e3fd717bb64ed72c71f214c78f5dc99eb940e66d9a064e9f156ac5e889a8decafdef75c3f7a6e83a1fb34e1bc526326d555e9a42dfa", info={ "error": { "code": -32000, "message": "insufficient funds for gas * price + value: balance 5600798782212687234, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 399201217787312766" } }, code=INSUFFICIENT_FUNDS, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at JsonRpcProvider.getRpcError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:1052:33)
+    at /home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:571:45
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'INSUFFICIENT_FUNDS',
+  transaction: '0x02f8d48189818285104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d42000000000000000000000000000000000000000000000000000000000000002d000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c001a0ab329cfdce37500632e2062e3fd717bb64ed72c71f214c78f5dc99eb940e66d9a064e9f156ac5e889a8decafdef75c3f7a6e83a1fb34e1bc526326d555e9a42dfa',
+  info: {
+    error: {
+      code: -32000,
+      message: 'insufficient funds for gas * price + value: balance 5600798782212687234, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 399201217787312766'
+    }
+  },
+  shortMessage: 'insufficient funds for intrinsic transaction cost'
+}
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x8490fcbdda685057b217508d0be0792bddd357369e59e377e983c2dade42add5", "blockNumber": 82321101, "contractAddress": null, "cumulativeGasUsed": "25841821", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0x96925054f152a8e373ef9a80ccf744ce92d8c3ad1adcd13d2f442101a09ccd17", "index": 134, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0x8490fcbdda685057b217508d0be0792bddd357369e59e377e983c2dade42add5", "blockNumber": 82321101, "data": "0x0000000000000000000000000000000000000000000000000002ad1eee80a4240000000000000000000000000000000000000000000000004ca1a4f31d8c658200000000000000000000000000000000000000000001b8ef1ef3b4fa97e3b40c0000000000000000000000000000000000000000000000004c9ef7d42f0bc15e00000000000000000000000000000000000000000001b8ef1ef6621986645830", "index": 1266, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0x96925054f152a8e373ef9a80ccf744ce92d8c3ad1adcd13d2f442101a09ccd17", "transactionIndex": 134 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0x96925054f152a8e373ef9a80ccf744ce92d8c3ad1adcd13d2f442101a09ccd17',
+    index: 134,
+    blockHash: '0x8490fcbdda685057b217508d0be0792bddd357369e59e377e983c2dade42add5',
+    blockNumber: 82321101,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 25841821n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+BalanceOf:  1000036100000000000000000n
+Full Time:  1906104 ms
+
+Date:  2026-01-30T08:36:56.083Z
+Preço atual de avalanche-2 em USD: $10.89
+Preço atual de polygon-ecosystem-token em USD: $0.11111
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10597 ms
+Deposit Avalanche:  5419 ms
+ID último depósito:  46
+BalanceOf:  1000037050000000000000000n
+Full Time:  28414 ms
+
+Date:  2026-01-30T08:45:39.723Z
+Preço atual de avalanche-2 em USD: $10.86
+Preço atual de polygon-ecosystem-token em USD: $0.110603
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5168 ms
+Deposit Avalanche:  9932 ms
+ID último depósito:  47
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10544 ms
+Deposit Avalanche:  10236 ms
+ID último depósito:  48
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10184 ms
+Deposit Avalanche:  9965 ms
+ID último depósito:  49
+Error: insufficient funds for intrinsic transaction cost (transaction="0x02f8d48189818a85104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d420000000000000000000000000000000000000000000000000000000000000031000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a0bb7cf07664a1b33147958081af244e414287eacd4459d327c54c936d3603256aa03c3b75f0d9f127c03ebcb9702856a9c5a9d188e354cfa5806d022c9d24da29d6", info={ "error": { "code": -32000, "message": "insufficient funds for gas * price + value: balance 5364637107554336986, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 635362892445663014" } }, code=INSUFFICIENT_FUNDS, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at JsonRpcProvider.getRpcError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:1052:33)
+    at /home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:571:45
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'INSUFFICIENT_FUNDS',
+  transaction: '0x02f8d48189818a85104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d420000000000000000000000000000000000000000000000000000000000000031000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a0bb7cf07664a1b33147958081af244e414287eacd4459d327c54c936d3603256aa03c3b75f0d9f127c03ebcb9702856a9c5a9d188e354cfa5806d022c9d24da29d6',
+  info: {
+    error: {
+      code: -32000,
+      message: 'insufficient funds for gas * price + value: balance 5364637107554336986, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 635362892445663014'
+    }
+  },
+  shortMessage: 'insufficient funds for intrinsic transaction cost'
+}
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10710 ms
+Deposit Avalanche:  5559 ms
+ID último depósito:  50
+Error: insufficient funds for intrinsic transaction cost (transaction="0x02f8d48189818a85104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d420000000000000000000000000000000000000000000000000000000000000032000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a077dca2c8cc5618679ac078f268c0d521a236a73b314e13dc2ffc36a3f28859a8a026838400bad0aa411e9abcd66cccee92976dbe923073b58bd636efb208f3e7fe", info={ "error": { "code": -32000, "message": "insufficient funds for gas * price + value: balance 5364637107554336986, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 635362892445663014" } }, code=INSUFFICIENT_FUNDS, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at JsonRpcProvider.getRpcError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:1052:33)
+    at /home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider-jsonrpc.ts:571:45
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'INSUFFICIENT_FUNDS',
+  transaction: '0x02f8d48189818a85104c533c00858bb2c97000831e8480945f4351252d27582687d66adffa27746679294d3080b86421ea6d420000000000000000000000000000000000000000000000000000000000000032000000000000000000000000486180513a8d1a1442b378dcd9c2fd24df34cc320000000000000000000000000000000000000000000000000de0b6b3a7640000c080a077dca2c8cc5618679ac078f268c0d521a236a73b314e13dc2ffc36a3f28859a8a026838400bad0aa411e9abcd66cccee92976dbe923073b58bd636efb208f3e7fe',
+  info: {
+    error: {
+      code: -32000,
+      message: 'insufficient funds for gas * price + value: balance 5364637107554336986, queued cost 4800000000000000000, tx cost 1200000000000000000, overshot 635362892445663014'
+    }
+  },
+  shortMessage: 'insufficient funds for intrinsic transaction cost'
+}
+BalanceOf:  1000038000000000000000000n
+Full Time:  2084849 ms
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xb6dacb9efc0ba67b6040f21f3793fd375ff309fe5044de5c58c94473a6595c91", "blockNumber": 82322690, "contractAddress": null, "cumulativeGasUsed": "35181071", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0x25b16564128c0387933d6cc8eccc6575c8a89d38cfb4ab8b12dd3148b1047e6d", "index": 122, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0xb6dacb9efc0ba67b6040f21f3793fd375ff309fe5044de5c58c94473a6595c91", "blockNumber": 82322690, "data": "0x0000000000000000000000000000000000000000000000000002bf59503d1e510000000000000000000000000000000000000000000000004920f6f7a7b2a0da00000000000000000000000000000000000000000001be344a364a290a9b30b3000000000000000000000000000000000000000000000000491e379e5775828900000000000000000000000000000000000000000001be344a3909825ad84f04", "index": 1536, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0x25b16564128c0387933d6cc8eccc6575c8a89d38cfb4ab8b12dd3148b1047e6d", "transactionIndex": 122 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0x25b16564128c0387933d6cc8eccc6575c8a89d38cfb4ab8b12dd3148b1047e6d',
+    index: 122,
+    blockHash: '0xb6dacb9efc0ba67b6040f21f3793fd375ff309fe5044de5c58c94473a6595c91',
+    blockNumber: 82322690,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 35181071n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+
+Date:  2026-01-30T09:29:53.984Z
+Preço atual de avalanche-2 em USD: $10.84
+Preço atual de polygon-ecosystem-token em USD: $0.11057
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  5610 ms
+Deposit Avalanche:  10438 ms
+ID último depósito:  51
+BalanceOf:  1000038950000000000000000n
+Full Time:  28753 ms
+
+Date:  2026-01-30T09:35:40.007Z
+Preço atual de avalanche-2 em USD: $10.83
+Preço atual de polygon-ecosystem-token em USD: $0.11059
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  15560 ms
+Deposit Avalanche:  10536 ms
+ID último depósito:  52
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10114 ms
+Deposit Avalanche:  10335 ms
+ID último depósito:  53
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xfeda78f99e5d6126fd46a8683bebf0ca7f0c8a3ffb45531933bfac5f49b2fcce", "blockNumber": 82323588, "contractAddress": null, "cumulativeGasUsed": "24293969", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0x9f191be0f82a91621159c8d5159aed2403cbb09e00e107fa42b7172e94029cbb", "index": 124, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0xfeda78f99e5d6126fd46a8683bebf0ca7f0c8a3ffb45531933bfac5f49b2fcce", "blockNumber": 82323588, "data": "0x0000000000000000000000000000000000000000000000000002f4f6b4eeeab000000000000000000000000000000000000000000000000044de67d4237e063e00000000000000000000000000000000000000000001c0682fe0d6c67c5dbb5c00000000000000000000000000000000000000000000000044db72dd6e8f1b8e00000000000000000000000000000000000000000001c0682fe3cbbd314ca60c", "index": 1205, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0x9f191be0f82a91621159c8d5159aed2403cbb09e00e107fa42b7172e94029cbb", "transactionIndex": 124 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0x9f191be0f82a91621159c8d5159aed2403cbb09e00e107fa42b7172e94029cbb',
+    index: 124,
+    blockHash: '0xfeda78f99e5d6126fd46a8683bebf0ca7f0c8a3ffb45531933bfac5f49b2fcce',
+    blockNumber: 82323588,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 24293969n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+BalanceOf:  1000039900000000000000000n
+Full Time:  883202 ms
+
+Date:  2026-01-30T09:59:53.187Z
+Preço atual de avalanche-2 em USD: $10.83
+Preço atual de polygon-ecosystem-token em USD: $0.11054
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10851 ms
+Deposit Avalanche:  10536 ms
+ID último depósito:  54
+BalanceOf:  1000040850000000000000000n
+Full Time:  33683 ms
+
+Date:  2026-01-30T10:05:43.344Z
+Preço atual de avalanche-2 em USD: $10.84
+Preço atual de polygon-ecosystem-token em USD: $0.110638
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10320 ms
+Deposit Avalanche:  10441 ms
+ID último depósito:  55
+BalanceOf:  1000041800000000000000000n
+Full Time:  176516 ms
+
+Date:  2026-01-30T10:18:07.239Z
+Preço atual de avalanche-2 em USD: $10.83
+Preço atual de polygon-ecosystem-token em USD: $0.11072
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10220 ms
+Deposit Avalanche:  10231 ms
+ID último depósito:  56
+BalanceOf:  1000042750000000000000000n
+Full Time:  33668 ms
+
+Date:  2026-01-30T10:25:44.975Z
+Erro ao buscar o preço de polygon-ecosystem-token: AxiosError: Request failed with status code 429
+    at settle (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/axios/lib/adapters/http.js:793:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at getCryptoPrice (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/scripts/transactionMetrics.js:14:26)
+    at main (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/scripts/transactionMetrics.js:165:27) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'axios/1.13.2',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'https://api.coingecko.com/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.coingecko.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.coingecko.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      timeout: 0,
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 959,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.13.2\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.coingecko.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.coingecko.com/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 26,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.coingecko.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.coingecko.com/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+      _timeout: null,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: Object [AxiosHeaders] {
+      date: 'Fri, 30 Jan 2026 10:25:45 GMT',
+      'content-type': 'application/json',
+      'content-length': '187',
+      connection: 'close',
+      'retry-after': '60',
+      'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+      expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+      'referrer-policy': 'same-origin',
+      'x-frame-options': 'SAMEORIGIN',
+      vary: 'accept-encoding',
+      server: 'cloudflare',
+      'cf-ray': '9c6044622b2229e4-GRU',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://api.coingecko.com/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.13.2\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.coingecko.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/v3/simple/price?ids=polygon-ecosystem-token&vs_currencies=usd',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.coingecko.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: { status: [Object] }
+  },
+  status: 429
+}
+Preço atual de avalanche-2 em USD: $10.86
+Preço atual de polygon-ecosystem-token em USD: $null
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10339 ms
+Deposit Avalanche:  10418 ms
+ID último depósito:  57
+BalanceOf:  1000043700000000000000000n
+Full Time:  478309 ms
+
+Date:  2026-01-30T10:43:10.070Z
+Preço atual de avalanche-2 em USD: $10.87
+Preço atual de polygon-ecosystem-token em USD: $0.110794
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10731 ms
+Deposit Avalanche:  10232 ms
+ID último depósito:  58
+BalanceOf:  1000044650000000000000000n
+Full Time:  77495 ms
+
+Date:  2026-01-30T10:46:28.218Z
+Preço atual de avalanche-2 em USD: $10.86
+Preço atual de polygon-ecosystem-token em USD: $0.11058
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  11037 ms
+Deposit Avalanche:  10542 ms
+ID último depósito:  59
+BalanceOf:  1000045600000000000000000n
+Full Time:  34588 ms
+
+Date:  2026-01-30T10:55:45.589Z
+Preço atual de avalanche-2 em USD: $10.88
+Preço atual de polygon-ecosystem-token em USD: $0.110493
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  24528 ms
+Deposit Avalanche:  9351 ms
+ID último depósito:  60
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  9322 ms
+Deposit Avalanche:  9115 ms
+ID último depósito:  61
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x502ec9af0e543211277e8426ed7d47b3ca9480376ed7cdfb43462e3a9af1cd62", "blockNumber": 82326267, "contractAddress": null, "cumulativeGasUsed": "17687694", "from": "0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0", "gasPrice": "600000000000", "gasUsed": "29349", "hash": "0xbfe4513c3622ada8387eae75e2df692b7b4982a2e5b7cc72f1cb3072f3804c61", "index": 102, "logs": [ { "_type": "log", "address": "0x0000000000000000000000000000000000001010", "blockHash": "0x502ec9af0e543211277e8426ed7d47b3ca9480376ed7cdfb43462e3a9af1cd62", "blockNumber": 82326267, "data": "0x0000000000000000000000000000000000000000000000000002bf279e7816920000000000000000000000000000000000000000000000003956fbbf608abc2600000000000000000000000000000000000000000001c6a307c8a29c2336f2d400000000000000000000000000000000000000000000000039543c97c212a59400000000000000000000000000000000000000000001c6a307cb61c3c1af0966", "index": 839, "removed": null, "topics": [ "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63", "0x0000000000000000000000000000000000000000000000000000000000001010", "0x000000000000000000000000bc8cd664252ff99052cfcf0adc1ca3603af45ad0", "0x0000000000000000000000007ee41d8a25641000661b1ef5e6ae8a00400466b0" ], "transactionHash": "0xbfe4513c3622ada8387eae75e2df692b7b4982a2e5b7cc72f1cb3072f3804c61", "transactionIndex": 102 } ], "logsBloom": "0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000", "root": null, "status": 0, "to": "0x5f4351252D27582687D66aDffa27746679294d30" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:698:21)
+    at assert (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/utils/errors.ts:719:25)
+    at checkReceipt (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1617:19)
+    at JsonRpcProvider.txListener (/home/tallo-ferreira/Documentos/Meus Projetos/Notary-Mechanism/node_modules/ethers/src.ts/providers/provider.ts:1667:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0x5f4351252D27582687D66aDffa27746679294d30',
+    from: '0xbc8Cd664252FF99052cFCF0AdC1cA3603Af45AD0',
+    contractAddress: null,
+    hash: '0xbfe4513c3622ada8387eae75e2df692b7b4982a2e5b7cc72f1cb3072f3804c61',
+    index: 102,
+    blockHash: '0x502ec9af0e543211277e8426ed7d47b3ca9480376ed7cdfb43462e3a9af1cd62',
+    blockNumber: 82326267,
+    logsBloom: '0x00000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000008000000000000000000000000100000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000020000000400000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000400000000000100000008000000000000000000000000000000000000000000000000000000000000000100000',
+    gasUsed: 29349n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 17687694n,
+    gasPrice: 600000000000n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+BalanceOf:  1000046550000000000000000n
+Full Time:  1440134 ms
+
+Date:  2026-01-30T11:29:08.579Z
+Preço atual de avalanche-2 em USD: $10.92
+Preço atual de polygon-ecosystem-token em USD: $0.110668

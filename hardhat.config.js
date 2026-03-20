@@ -15,12 +15,12 @@ module.exports = {
     },
     amoy: {
       url: `${process.env.NODE_URL_AMOY}`,
-      chainId: 80002,
+      chainId: 137,// 80002, //testenet 
       accounts: [process.env.AMOY_PRIVATE_KEY01, process.env.AMOY_PRIVATE_KEY02],
     },
     fuji: {
       url: `${process.env.NODE_URL_AVALANCHE}`,
-      chainId: 43113,
+      chainId: 43114,// 43113, // testnet
       accounts: [process.env.AVALANCHE_PRIVATE_KEY01, process.env.AVALANCHE_PRIVATE_KEY02],
     },
   },

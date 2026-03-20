@@ -14,12 +14,12 @@ async function main() {
         const wallet2 = new ethers.Wallet(process.env.SEPOLIA_PRIVATE_KEY02);
         holders = [wallet1.address, wallet2.address];
         console.log("Configuring holders for SEPOLIA deployment.");
-    } else if (chainIdDec === 80002) { // Amoy
+    } else if (chainIdDec === 137) { // Amoy
         const wallet1 = new ethers.Wallet(process.env.AMOY_PRIVATE_KEY01);
         const wallet2 = new ethers.Wallet(process.env.AMOY_PRIVATE_KEY02);
         holders = [wallet1.address, wallet2.address];
         console.log("Configuring holders for AMOY deployment.");
-    } else if(chainIdDec === 43113) { // Avalanche Fuji
+    } else if(chainIdDec === 43114) { // Avalanche Fuji
         const wallet1 = new ethers.Wallet(process.env.AVALANCHE_PRIVATE_KEY01);
         const wallet2 = new ethers.Wallet(process.env.AVALANCHE_PRIVATE_KEY02);
         holders = [wallet1.address, wallet2.address];
@@ -32,26 +32,26 @@ async function main() {
     await hre.run('compile');
 
     // Deploy Token
-    const tokenStartTime = Date.now();
-    const Token = await ethers.getContractFactory("Token");
-    const token = await Token.deploy(holders);
-    await token.waitForDeployment(); 
+    // const tokenStartTime = Date.now();
+    // const Token = await ethers.getContractFactory("Token");
+    // const token = await Token.deploy(holders);
+    // await token.waitForDeployment(); 
     
-    const tokenAddress = await token.getAddress();
-    const tokenDeploymentTx = token.deploymentTransaction();
-    const tokenReceipt = await tokenDeploymentTx.wait();
+    // const tokenAddress = await token.getAddress();
+    // const tokenDeploymentTx = token.deploymentTransaction();
+    // const tokenReceipt = await tokenDeploymentTx.wait();
     
-    console.log("\n-----------------------------------------");
-    console.log(`Token address: ${tokenAddress}`);
-    console.log(`Deployed by: ${tokenDeploymentTx.from}`);
-    console.log(`Gas Used: ${tokenReceipt.gasUsed.toString()}`);
-    console.log(`Token Deployment Time: ${Date.now() - tokenStartTime} ms`);
-    console.log("-----------------------------------------");
+    // console.log("\n-----------------------------------------");
+    // console.log(`Token address: ${tokenAddress}`);
+    // console.log(`Deployed by: ${tokenDeploymentTx.from}`);
+    // console.log(`Gas Used: ${tokenReceipt.gasUsed.toString()}`);
+    // console.log(`Token Deployment Time: ${Date.now() - tokenStartTime} ms`);
+    // console.log("-----------------------------------------");
 
     //Deploy Notary
     const notaryStartTime = Date.now();
     const Notary = await ethers.getContractFactory("Notary");
-    const notary = await Notary.deploy(tokenAddress);
+    const notary = await Notary.deploy("0x2bF0b16a00c35DAf50e824AB5fDCD53f192ee791");
     await notary.waitForDeployment();
 
     const notaryAddress = await notary.getAddress();

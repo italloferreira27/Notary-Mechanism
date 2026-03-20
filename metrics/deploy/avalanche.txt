@@ -1,0 +1,56 @@
+# Deploy em rede de teste:
+
+npx hardhat run scripts/deploy.js --network fuji
+
+--- Deploying on fuji (ChainId: 43113) ---
+Configuring holders for AVALANCHE FUJI deployment.
+Nothing to compile
+
+-----------------------------------------
+Token address: 0x27858BAD212B669Ec4627DDD3AE48ce826CCcDA2
+Deployed by: 0x9A30D453697a55d810A51425137A9F0Bb0f63F76
+Gas Used: 1020384
+Token Deployment Time: 7800 ms
+-----------------------------------------
+
+-----------------------------------------
+Notary address: 0xE8BD4875E25248338FFD0E253F451ec678343083
+Deployed by: 0x9A30D453697a55d810A51425137A9F0Bb0f63F76
+Gas Used: 1190317
+Notary Deployment Time: 3416 ms
+-----------------------------------------
+
+Deployment process finished successfully!
+
+# Deploy em rede principal:
+
+npx hardhat run scripts/deploy.js --network fuji
+
+--- Deploying on fuji (ChainId: 43114) ---
+Configuring holders for AVALANCHE FUJI deployment.
+Nothing to compile
+
+-----------------------------------------
+Token address: 0x4A733C514B0eb925C3d32dA7F496AC0de1cF6525
+Deployed by: 0x9A30D453697a55d810A51425137A9F0Bb0f63F76
+Gas Used: 1020384
+Token Deployment Time: 136068 ms
+-----------------------------------------
+
+-----------------------------------------
+Notary address: 0x7df5B582c134e8D1aF554d8356ec4Ba3E22f72F7
+Deployed by: 0x9A30D453697a55d810A51425137A9F0Bb0f63F76
+Gas Used: 1190317
+Notary Deployment Time: 16766 ms
+-----------------------------------------
+
+Deployment process finished successfully!
+
+
+--- Operação Fuji (Stake)
+Aprovando 100.0 tokens na Fuji para o contrato Notary (0x7df5B582c134e8D1aF554d8356ec4Ba3E22f72F7)...
+Tokens aprovados na Fuji. Transação: 0x03e1b2210daaa2f816c4f7257fcd945670c14e032588a4b932745cbef4fccc15
+Realizando stake de 100.0 tokens na Fuji...
+Stake realizado na Fuji. Transação: 0x358db339f3067e89a8abe71e76b51ba886de806027f694d4bffeafd6404a8103
+Allowance do Notary na Fuji para 0x9A30D453697a55d810A51425137A9F0Bb0f63F76: 0.0 tokens
+Balanço do contrato Notary na Fuji: 100.0 tokens

@@ -20,12 +20,59 @@ async function getCryptoPrice(cryptoId) {
     }
 }
 
-async function main() {
-    const tokenAddressAvalanche = "0xB6C8fffc4b38a30d31F7634B510a2c311831b12e";
-    const notaryAddressAvalanche = "0x9aFF061470aF2d9cD04F083a5c3230812c3c5d02";
+// async function getPolygonGasConfig(provider) {
+//     try {
+//         // Tenta pegar da API oficial da Polygon (Gas Station) para precisão máxima
+//         // A opção 'rapid' garante que entre no próximo bloco
+//         const response = await axios.get('https://gasstation.polygon.technology/v2');
+//         const data = response.data.estimatedBaseFees;
+        
+//         // A API retorna em Gwei, precisamos converter.
+//         // Pegamos o valor 'rapid' e adicionamos +10% de segurança
+//         const maxPriorityFee = ethers.parseUnits(Math.ceil(data.rapid).toString(), 'gwei');
+//         const maxFee = ethers.parseUnits(Math.ceil(data.rapid * 1.5).toString(), 'gwei'); // Base * 1.5
 
-    const tokenAddressAmoy = "0x1C6806B61183331A2B3BB32C93DBeb0bE195F1dF";
-    const notaryAddressAmoy = "0xc64da9294F99E41B2679303a815c0AbCA217c6AA";
+//         console.log(`⚡ Gas Station: Priority ${data.rapid} Gwei`);
+        
+//         return {
+//             maxPriorityFeePerGas: maxPriorityFee,
+//             maxFeePerGas: maxFee,
+//             gasLimit: 1500000 // Limite um pouco maior para evitar "Out of Gas"
+//         };
+//     } catch (error) {
+//         console.log("⚠️ Falha na Gas Station, usando fallback do Provider com multiplicador 2x...");
+        
+//         // Fallback: Pega do provider e duplica os valores para garantir mineração
+//         const feeData = await provider.getFeeData();
+        
+//         // Multiplicadores agressivos (BigInt)
+//         const priorityMultiplier = 150n; // +50%
+//         const baseMultiplier = 200n; // +100%
+
+//         const maxPriorityFeePerGas = (feeData.maxPriorityFeePerGas * priorityMultiplier) / 100n;
+//         const maxFeePerGas = (feeData.maxFeePerGas * baseMultiplier) / 100n;
+
+//         return {
+//             maxPriorityFeePerGas,
+//             maxFeePerGas,
+//             gasLimit: 1500000
+//         };
+//     }
+// }
+
+async function main() {
+    const {
+        TOKEN_ADDRESS_AVALANCHE,
+        NOTARY_ADDRESS_AVALANCHE,
+        TOKEN_ADDRESS_AMOY,
+        NOTARY_ADDRESS_AMOY
+    } = process.env;
+
+    const tokenAddressAvalanche = TOKEN_ADDRESS_AVALANCHE;
+    const notaryAddressAvalanche = NOTARY_ADDRESS_AVALANCHE;
+
+    const tokenAddressAmoy = TOKEN_ADDRESS_AMOY;
+    const notaryAddressAmoy = NOTARY_ADDRESS_AMOY;
 
     const avalancheProvider = new ethers.JsonRpcProvider(NODE_URL_AVALANCHE);
     const amoyProvider = new ethers.JsonRpcProvider(NODE_URL_AMOY);
@@ -43,7 +90,7 @@ async function main() {
     const chainIdDec = parseInt(chainIdHex, 16);
     console.log(`Network: ${networkName} | ChainId: (${chainIdDec})`);
 
-    if (chainIdDec == 43113) { // Avalanche Mainnet Chain ID
+    if (chainIdDec == 43114) { // mainnet avalanche
         console.log("Avalanche -> Amoy");
         const amount = ethers.parseEther('1');
         const fullTimeStart = Date.now();
@@ -60,6 +107,8 @@ async function main() {
         const timeAproveAvalancheEnd = Date.now();
         const timeAproveAvalanche = (timeAproveAvalancheEnd - timeAproveAvalancheStart);
 
+        console.log('Approve Avalanche: ', timeAproveAvalanche, 'ms');
+
         const publicKeyAmoy02 = ethers.computeAddress(AMOY_PRIVATE_KEY02);
 
         const timeDepositAvalancheStart = Date.now();
@@ -73,6 +122,8 @@ async function main() {
         const timeDepositAvalancheEnd = Date.now();
         const timeDepositAvalanche = (timeDepositAvalancheEnd - timeDepositAvalancheStart);
 
+        console.log('Deposit Avalanche: ', timeDepositAvalanche, 'ms');
+
         const id = await avalancheNotaryContract.lastDepositID();
         console.log("ID último depósito: ", id.toString());
 
@@ -82,9 +133,9 @@ async function main() {
             publicKeyAmoy02,
             amount,
             {
-                gasLimit: 1000000,
-                maxFeePerGas: ethers.parseUnits('30', 'gwei'),
-                maxPriorityFeePerGas: ethers.parseUnits('25', 'gwei')
+                gasLimit: 2000000,
+                maxFeePerGas: ethers.parseUnits('600', 'gwei'),
+                maxPriorityFeePerGas: ethers.parseUnits('70', 'gwei')
             }
         );
         const receiptExecuteBridgeAmoy = await executeBridgeAmoy.wait();
@@ -108,8 +159,8 @@ async function main() {
         console.log("\nDate: ", date);
 
         // Preço
-        const cryptoId = 'avalanche-2';  // Avalanche
-        const cryptoId2 = 'matic-network';        // Amoy  
+        const cryptoId = 'avalanche-2';   // Avalanche
+        const cryptoId2 = 'polygon-ecosystem-token';  // Amoy
         const priceAvalanche = await getCryptoPrice(cryptoId);
         const priceAmoy = await getCryptoPrice(cryptoId2);
 
@@ -137,19 +188,32 @@ async function main() {
                 console.log('Data successfully appended to CSV file!');
             }
         });
-    } else if (chainIdDec == 80002) { // AMOY Chain ID
+    } else if (chainIdDec == 137) { // polygon Chain ID
         console.log("Amoy -> Fuji");
 
+        // const gasConfig = {
+        //     maxPriorityFeePerGas: ethers.parseUnits("30", "gwei"), // Ajuste conforme a rede
+        //     maxFeePerGas: ethers.parseUnits("60", "gwei"), // Ajuste conforme a rede
+        //     gasLimit: 1000000
+        // };
+
         const gasConfig = {
-            maxPriorityFeePerGas: ethers.parseUnits("30", "gwei"), // Ajuste conforme a rede
-            maxFeePerGas: ethers.parseUnits("60", "gwei"), // Ajuste conforme a rede
-            gasLimit: 1000000
+            gasLimit: 2000000,
+            maxFeePerGas: ethers.parseUnits('600', 'gwei'),
+            maxPriorityFeePerGas: ethers.parseUnits('70', 'gwei')
         };
+
+        // const gasConfig = await getPolygonGasConfig(amoyProvider);
 
         // console.log("Gas Config: ", gasConfig);
 
         const amount = ethers.parseEther('1');
         const fullTimeStart = Date.now();
+
+        const balance = await amoyProvider.getBalance(amoyWallet.address);
+        const valorSaldo = ethers.formatEther(balance);
+
+        console.log("Get balance polygon: ", valorSaldo);
 
         const timeAproveAmoyStart = Date.now();
         const aproveAmoy = await amoyTokenContract.connect(amoyWallet).approve(
@@ -185,8 +249,8 @@ async function main() {
             amount,
             {
                 gasLimit: 1000000,
-                maxFeePerGas: ethers.parseUnits('60', 'gwei'),
-                maxPriorityFeePerGas: ethers.parseUnits('30', 'gwei')
+                maxFeePerGas: ethers.parseUnits('30', 'gwei'),
+                maxPriorityFeePerGas: ethers.parseUnits('5', 'gwei')
             }
         );
         const receiptExecuteBridgeAvax = await executeBridgeAvax.wait();
@@ -211,7 +275,7 @@ async function main() {
 
         // price
         const cryptoId = 'avalanche-2';   // Avalanche
-        const cryptoId2 = 'matic-network';  // Amoy
+        const cryptoId2 = 'polygon-ecosystem-token';  // Amoy
         const priceAvax = await getCryptoPrice(cryptoId);
         const priceAmoy = await getCryptoPrice(cryptoId2);
 
@@ -241,7 +305,7 @@ async function main() {
                 console.log('Data successfully appended to CSV file!');
             }
         });
-    }
+    }    
 }
 
 main()

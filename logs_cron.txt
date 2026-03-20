@@ -1,0 +1,27 @@
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: amoy | ChainId: (137)
+Amoy -> Fuji
+Get balance polygon:  8.544765329070960824
+id last deposit:  11
+balanceOf:  1000004750000000000000000n
+Full Time:  263172 ms
+
+Date:  2026-01-30T03:04:33.252Z
+Preço atual de avalanche-2 em USD: $10.9
+Preço atual de polygon-ecosystem-token em USD: $0.110231
+WARNING: You are currently using Node.js v18.19.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+Network: fuji | ChainId: (43114)
+Avalanche -> Amoy
+Approve Avalanche:  10207 ms
+Deposit Avalanche:  5833 ms
+ID último depósito:  12
+BalanceOf:  1000010450000000000000000n
+Full Time:  28231 ms
+
+Date:  2026-01-30T03:05:37.099Z
+Preço atual de avalanche-2 em USD: $10.9
+Preço atual de polygon-ecosystem-token em USD: $0.110261
